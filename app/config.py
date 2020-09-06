@@ -10,7 +10,7 @@ enable_index_page = True
 api_response_key_name = 'result'
 
 # configuration for image learner pkl file stored in cloud
-# see https://course.fast.ai/deployment_render.html for instructions to generate download urls
+# see https://course19.fast.ai/deployment_render.html for instructions to generate download urls
 # for model files (.pkl) shared on google drive and dropbox
 model_file_download_url = 'https://drive.google.com/uc?export=download&id=1-OXLsznNXsAvexiLHaBMoEQ4-N6N-t_4'
 model_file_name = 'export.pkl'
