@@ -4,7 +4,7 @@ This repo can be used as a starting point to deploy [fast.ai](https://github.com
 
 The sample app described here is up at https://fastai-v3.onrender.com. Test it out with bear images!
 
-The guide for production deployment to Render is at https://course.fast.ai/deployment_render.html.
+The guide for production deployment to Render is at https://course19.fast.ai/deployment_render.html.
 
 ## Refactored Project Template
 
@@ -12,7 +12,7 @@ Heavily modified in order to convert it into a project template for faster deplo
 
 ## Updated Demo Site
 
-By default it deploys a _Pet Breed Image Classifier_ based on __Lesson 1__ of __Practical Deep Learning for Coders V3__ from the [fast.ai](https://course.fast.ai) course using a Resnet50 shared over Google Drive
+By default it deploys a _Pet Breed Image Classifier_ based on __Lesson 5__ of __Practical Deep Learning for Coders V4__ from the [fast.ai](https://course.fast.ai) course using a Resnet34 shared over Dropbox
 
 ## Modifying the template
 
