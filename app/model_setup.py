@@ -1,5 +1,5 @@
 
-from fastai.vision import load_learner
+from fastai.vision.all import load_learner
 from pathlib import Path
 import aiohttp, asyncio
 
@@ -7,6 +7,7 @@ from config import model_file_name, model_file_download_url
 
 path = Path(__file__).parent
 model_path = path/'models'
+model_file = model_path/model_file_name
 
 def init_learner_in_loop():
     loop = asyncio.get_event_loop()
@@ -16,9 +17,10 @@ def init_learner_in_loop():
     return learner
 
 async def setup_learner():
-    await download_file(model_file_download_url, model_path/model_file_name)
+    
+    await download_file(model_file_download_url, model_file)
     try:
-        learner = load_learner(model_path, model_file_name)
+        learner = load_learner(model_file)
         return learner
     except RuntimeError as e:
         if len(e.args) > 0 and 'CPU-only machine' in e.args[0]:
