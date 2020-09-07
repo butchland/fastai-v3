@@ -15,7 +15,8 @@ api_response_key_name = 'result'
 # gdrive file: /content/drive/My\ Drive/fastai_v3/models/pets-stage2-resnet50-cycle3.pkl
 # old share url:           https://drive.google.com/uc?export=download&id=1-OXLsznNXsAvexiLHaBMoEQ4-N6N-t_4
 # share url:               https://drive.google.com/uc?export=download&id=1-ZVyTjbxW0NZa5CT-zWPqStjES1q0V9o
-model_file_download_url = 'https://drive.google.com/uc?export=download&id=1-ZVyTjbxW0NZa5CT-zWPqStjES1q0V9o'
+# dropbox share url:       https://www.dropbox.com/s/aauarr488wiqraz/pets-classifier-20200907.pkl?dl=1
+model_file_download_url = 'https://www.dropbox.com/s/aauarr488wiqraz/pets-classifier-20200907.pkl?dl=1'
 model_file_name = 'export.pkl'
 
 # configuration for prediction handler
